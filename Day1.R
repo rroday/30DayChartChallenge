@@ -20,7 +20,7 @@ setwd("C:/Users/RER/Desktop/DataMonth21")
 
 library(ggplot2)
 
-Books <- c("Fantasy","Spark Notes","Biographical","Science","Distopian","Fiction","Poetry","Non-Fiction","Mystery","Science")
+Books <- c("Fantasy","SciFi","Biographical","Spark Notes","Distopian","Fiction","Poetry","Non-Fiction","Mystery","Science")
 Count <- c(3,14,6,2,8,28,2,5,4,12)
 data<-as.data.frame(cbind(Books,Count))
 data$Count <- as.numeric(data$Count)
